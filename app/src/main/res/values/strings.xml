@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Kuisin</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="title_activity_mahasiswa_dashboard">MahasiswaDashboardActivity</string>
+    <string name="title_activity_dosen_dashboard">DosenDashboardActivity</string>
 </resources>

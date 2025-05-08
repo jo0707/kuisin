@@ -13,6 +13,26 @@
         android:theme="@style/Theme.Kuisin"
         tools:targetApi="31">
         <activity
+            android:name=".dosen.dashboard.DosenDashboardActivity"
+            android:exported="false"
+            android:label="@string/title_activity_dosen_dashboard"
+            android:theme="@style/Theme.Kuisin" />
+        <activity
+            android:name=".mahasiswa.dashboard.MahasiswaDashboardActivity"
+            android:exported="false"
+            android:label="@string/title_activity_mahasiswa_dashboard"
+            android:theme="@style/Theme.Kuisin" />
+        <activity
+            android:name=".dosen.dashboard.DashboardActivity"
+            android:exported="false"
+            android:label="@string/title_activity_dashboard"
+            android:theme="@style/Theme.Kuisin" />
+        <activity
+            android:name=".login.LoginActivity"
+            android:exported="false"
+            android:label="@string/title_activity_login"
+            android:theme="@style/Theme.Kuisin" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
