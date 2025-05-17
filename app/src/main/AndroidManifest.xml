@@ -12,6 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Kuisin"
         tools:targetApi="31">
+
         <activity
             android:name=".dosen.dashboard.DosenDashboardActivity"
             android:exported="false"
@@ -21,11 +22,6 @@
             android:name=".mahasiswa.dashboard.MahasiswaDashboardActivity"
             android:exported="false"
             android:label="@string/title_activity_mahasiswa_dashboard"
-            android:theme="@style/Theme.Kuisin" />
-        <activity
-            android:name=".dosen.dashboard.DashboardActivity"
-            android:exported="false"
-            android:label="@string/title_activity_dashboard"
             android:theme="@style/Theme.Kuisin" />
         <activity
             android:name=".login.LoginActivity"
