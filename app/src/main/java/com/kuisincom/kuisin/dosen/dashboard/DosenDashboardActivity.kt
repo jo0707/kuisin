@@ -556,7 +556,7 @@ fun ClassCard(classItem: ClassItem) {
         colors = CardDefaults.cardColors(
             containerColor = Color.White
         ),
-        onClick = { /* TODO: Open class detail */ }
+        onClick = { /* TODO: class detail */ }
     ) {
         Column(
             modifier = Modifier.padding(12.dp)
